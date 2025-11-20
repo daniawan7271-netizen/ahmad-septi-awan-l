@@ -1,0 +1,114 @@
+/* Font & style dasar */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Judul Web */
+.web-title {
+    text-align: center;
+    margin-top: 40px;
+    color: #3a3a3a;
+}
+
+/* Container Login */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 25px;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #4287f5;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #2f6cd8;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Navbar */
+.navbar {
+    background: #4287f5;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    color: #ffdddd;
+}
+
+/* Section Dashboard */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Ikon Sosial */
+.social-icons img {
+    width: 50px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
